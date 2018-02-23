@@ -41,9 +41,8 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * When button is clicked
-     *
+     * <p>
      * Check user input with variables and give score to Toast
-     *
      */
 
     private void onButtonResultClicked() {
@@ -58,33 +57,42 @@ public class MainActivity extends AppCompatActivity {
                         && mCheckBoxAndroid.isChecked()
                         && mCheckBoxGoogle.isChecked()
                         && !mCheckboxNokia.isChecked()) {
-                    score += 1;
+                    score++;
                 }
 
                 String inputAnswer = mEditTextAnswer.getText().toString();
                 String correctAnswer = "4";
 
                 if (inputAnswer.equals(correctAnswer)) {
-                    score += 1;
+                    score++;
                 }
 
                 if (mRadioButtonLinux.isChecked()) {
-                    score += 1;
+                    score++;
                 }
 
                 if (mRadioButtonJava.isChecked()) {
-                    score += 1;
+                    score++;
                 }
 
                 if (mRadioButtonJson.isChecked()) {
-                    score += 1;
+                    score++;
                 }
 
-                Toast toast = Toast.makeText(MainActivity.this, "Your score is: "
-                        + score + " of 5" + " \n Congratulations ", Toast.LENGTH_LONG);
-                toast.setGravity(Gravity.CENTER, 0, 0);
-                toast.show();
+                if (score > 0) {
 
+                    Toast toast = Toast.makeText(MainActivity.this, "Your score is: "
+                            + score + " of 5" + " \n Congratulations ", Toast.LENGTH_LONG);
+                    toast.setGravity(Gravity.CENTER, 0, 0);
+                    toast.show();
+
+                } else {
+
+                    Toast toast = Toast.makeText(MainActivity.this,
+                            "Too bad for you... \nGo to Udacity.com and learn", Toast.LENGTH_LONG);
+                    toast.setGravity(Gravity.CENTER, 0, 0);
+                    toast.show();
+                }
             }
         });
     }
