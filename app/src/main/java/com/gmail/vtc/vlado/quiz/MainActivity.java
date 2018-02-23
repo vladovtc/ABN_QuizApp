@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 Toast toast = Toast.makeText(MainActivity.this, "Your score is: "
-                        + score + " of 5" + " \n Congratulation ", Toast.LENGTH_LONG);
+                        + score + " of 5" + " \n Congratulations ", Toast.LENGTH_LONG);
                 toast.setGravity(Gravity.CENTER, 0, 0);
                 toast.show();
 
