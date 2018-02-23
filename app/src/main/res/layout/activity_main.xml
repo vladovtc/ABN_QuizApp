@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gmail.vtc.vlado.quiz.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/dp16">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/dp16"
+            android:text="@string/welcome_to_the_quiz"
+            android:textSize="34sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp8"
+            android:text="@string/_1_which_company_developed_android"
+            android:textSize="@dimen/sp22" />
+
+        <CheckBox
+            android:id="@+id/check_apple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/apple"
+            android:textSize="@dimen/sp18" />
+
+        <CheckBox
+            android:id="@+id/check_android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/android_inc"
+            android:textSize="@dimen/sp18" />
+
+        <CheckBox
+            android:id="@+id/check_google"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/google"
+            android:textSize="@dimen/sp18" />
+
+        <CheckBox
+            android:id="@+id/check_nokia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nokia"
+            android:textSize="@dimen/sp18" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp8"
+            android:layout_marginTop="@dimen/dp16"
+            android:text="@string/_2_how_many_orientations_does_android_support"
+            android:textSize="@dimen/sp22" />
+
+        <EditText
+            android:id="@+id/edit_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp16"
+            android:hint="@string/please_enter_a_number"
+            android:inputType="number"
+            android:textSize="@dimen/sp18" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp8"
+            android:text="@string/_3_android_is_based_on_witch_kernel"
+            android:textSize="@dimen/sp22" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp16">
+
+            <RadioButton
+                android:id="@+id/radio_linux"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/linux_kernel"
+                android:textSize="@dimen/sp18" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/windows_kernel"
+                android:textSize="@dimen/sp18" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mac_kernel"
+                android:textSize="@dimen/sp18" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hybrid_kernel"
+                android:textSize="@dimen/sp18" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp8"
+            android:text="@string/_4_android_is_based_on_which_language"
+            android:textSize="@dimen/sp22" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp16">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/c"
+                android:textSize="@dimen/sp18" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/c_plus_plus"
+                android:textSize="@dimen/sp18" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kotlin"
+                android:textSize="@dimen/sp18" />
+
+            <RadioButton
+                android:id="@+id/radio_java"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/java"
+                android:textSize="@dimen/sp18" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp8"
+            android:text="@string/_5_what_is_json_in_android"
+            android:textSize="@dimen/sp22" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp16">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/java_script_object_native"
+                android:textSize="@dimen/sp18" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/java_script_oriented_notation"
+                android:textSize="@dimen/sp18" />
+
+            <RadioButton
+                android:id="@+id/radio_json"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/java_script_object_notation"
+                android:textSize="@dimen/sp18" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/none_of_above"
+                android:textSize="@dimen/sp18" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/see_result"
+            android:textSize="@dimen/sp36" />
+
+    </LinearLayout>
+
+</ScrollView>

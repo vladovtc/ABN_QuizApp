@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="welcome_to_the_quiz">Welcome to the Quiz</string>
+    <string name="_1_which_company_developed_android">1. Which company has developed android and which company has bought it??</string>
+    <string name="apple">Apple</string>
+    <string name="google">Google</string>
+    <string name="android_inc">Android Inc.</string>
+    <string name="nokia">Nokia</string>
+    <string name="_2_how_many_orientations_does_android_support">2. How many orientations does android support?</string>
+    <string name="please_enter_a_number">Please enter a number</string>
+    <string name="_3_android_is_based_on_witch_kernel">3. Android is based on witch kernel?</string>
+    <string name="linux_kernel">Linux kernel</string>
+    <string name="windows_kernel">Windows kernel</string>
+    <string name="mac_kernel">Mac kernel</string>
+    <string name="hybrid_kernel">Hybrid kernel</string>
+    <string name="_4_android_is_based_on_which_language">4. Android is based on which language?</string>
+    <string name="c">C</string>
+    <string name="c_plus_plus">C++</string>
+    <string name="kotlin">Kotlin</string>
+    <string name="java">Java</string>
+    <string name="_5_what_is_json_in_android">5. What is JSON in android?</string>
+    <string name="java_script_object_native">Java Script Object Native</string>
+    <string name="java_script_oriented_notation">Java Script Oriented Notation</string>
+    <string name="java_script_object_notation">Java Script Object Notation</string>
+    <string name="none_of_above">None of above</string>
+    <string name="see_result">See result</string>
+</resources>
