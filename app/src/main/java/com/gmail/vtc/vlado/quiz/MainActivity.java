@@ -40,7 +40,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * I don't know what to write in comment, please advise
+     * When button is clicked
+     *
+     * Check user input with variables and give score to Toast
+     *
      */
 
     private void onButtonResultClicked() {
